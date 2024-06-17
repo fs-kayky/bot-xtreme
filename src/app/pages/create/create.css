@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffa31a;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.create__body {
+  height: 700px;
+  width: 1000px;
+  background-color: #1b1b1b;
+  border-radius: 25px;
+}
+.create__button {
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 30px;
+  width: 120px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.create__button:hover {
+  background-color: #878788;
+}
+.create__voltar {
+  text-decoration: none;
+  color: black;
+}
+.create__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.create__title {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}/*# sourceMappingURL=create.css.map */

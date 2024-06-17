@@ -1,0 +1,67 @@
+@import '../../../common/variables.scss';
+@import '../../../common/mixins.scss';
+
+body {
+    background-color: $orange-color;
+}
+
+.create {
+
+    @include centering;
+    margin-top: 60px;
+
+    &__body {
+
+        height: 700px;
+        width: 1000px;
+        background-color: $black-color;
+        border-radius: 25px;
+
+    }
+
+    &__button {
+
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 30px;
+        width: 120px;
+        cursor: pointer;
+
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        transition: 0.3s;
+
+        background-color: #fff;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #878788;
+        }
+    }
+
+
+    &__voltar {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    &__header {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+    }
+
+
+    &__title {
+        color: white;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+}
