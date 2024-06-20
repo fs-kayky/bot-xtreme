@@ -5,7 +5,10 @@ const app = express();
 
 function pythonProcess() {
   return new Promise((resolve, reject) => {
-    const pyProcess = spawn('python', ['src\\backend\\script.py']);
+
+    let profile = "perfil-kayky"
+
+    const pyProcess = spawn('python', ['src\\backend\\script.py', profile]);
 
     pyProcess.stdout.on('data', (data) => {
       console.log('Dados recebidos do python:', data.toString());
