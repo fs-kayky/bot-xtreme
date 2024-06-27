@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="edit.css">
+    <title>Bot Xtreme - Adicionar Novo Alarme</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+<body>
+    <script src="edit.js"></script>
+    
+    <main class="newAlarm">
+        <div class="newAlarm__body">
+
+            <a href="../home/home.html" class="create__voltar"><button class="newAlarm__button">Voltar</button></a>
+ 
+            <div class="newAlarm__header">
+                
+                <div class="newAlarm__title">
+                    Adicionar novo Alarme
+                </div>
+            
+            </div>
+
+            <div class="newAlarm__content">
+
+                <div class="content__wrapper">
+
+                    <label for="select_profile">Selecione o perfil: </label>
+
+                    <select id="select_profile"></select>
+
+                </div>
+
+                <div class="content__wrapper form">
+
+                        <label for="perfil_name">Nome do Perfil:</label>
+                        <input type="text" name="" id="profile_name">
+        
+                        <label for="perfil_name">Nome do Arquivo:</label>
+                        <input type="text" name="" id="file_path">
+        
+                        <label for="perfil_name">Link do Anuncio:</label>
+                        <input type="text" name="" id="ad_link">
+
+                </div>
+
+
+                <div class="content__wrapper buttons">
+                    <button id="EditProfile" onclick="OnClickEditHandler()" >Editar perfil</button>
+                    <button id="DeleteProfile" onclick="OnClickDeleteHandler()" >Deletar perfil</button>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffa31a;
+}
+
+.newAlarm {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.newAlarm__button {
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 30px;
+  width: 120px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.newAlarm__button:hover {
+  background-color: #878788;
+}
+.newAlarm__body {
+  border-radius: 25px;
+  height: 680px;
+  width: 1100px;
+  background-color: #1b1b1b;
+}
+.newAlarm__header {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+.newAlarm__title {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+.newAlarm__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  flex-direction: column;
+  gap: 30px;
+}
+.newAlarm__content label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  margin-right: 20px;
+}
+.newAlarm__content select {
+  width: 300px;
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.newAlarm__content button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.newAlarm__content button:hover {
+  background-color: #c0bfbf;
+}
+.newAlarm__content button:active {
+  background-color: #ffa31a;
+}
+.newAlarm__content input {
+  height: 40px;
+}
+
+.content__wrapper {
+  height: 60px;
+  width: 700px;
+  display: flex;
+  text-align: left;
+}
+
+.buttons {
+  justify-content: center;
+  gap: 50px;
+}
+
+.form {
+  margin-left: 170px;
+  flex-direction: column;
+  height: 230px;
+  gap: 10px;
+}
+.form input {
+  width: 500px;
+  height: 50px;
+  border-radius: 25px;
+  padding-left: 10px;
+  font-size: 20px;
+}/*# sourceMappingURL=edit.css.map */

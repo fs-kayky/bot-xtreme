@@ -1,0 +1,24 @@
+{
+  "name": "projeto-agencia",
+  "prodcutName": "Bot Xtreme",
+  "version": "1.0.0",
+  "main": "./src/electron/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Kayky Rodrigues",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.19.2",
+    "sass": "^1.77.4"
+  },
+  "build": {
+    "appId": "com.FsKayky.BotXtreme",
+    "files": "!build-assets${/*}"
+  }
+}

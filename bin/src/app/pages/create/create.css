@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffa31a;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.create__body {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 1000px;
+  background-color: #1b1b1b;
+  border-radius: 25px;
+}
+.create__button {
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 30px;
+  width: 120px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.create__button:hover {
+  background-color: #878788;
+}
+.create__voltar {
+  text-decoration: none;
+  color: black;
+}
+.create__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.create__title {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+.create__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.create__content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  height: 450px;
+}
+.create__content form button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.create__content form button:hover {
+  background-color: #c0bfbf;
+}
+.create__content form button:active {
+  background-color: #ffa31a;
+}
+.create__content form input {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border: none;
+  width: 500px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: white;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  padding: 15px;
+}
+.create__content form input:focus {
+  outline: none;
+  border: 3px solid #ffa31a;
+  background-color: #f0f0f0;
+}
+.create__content label {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}/*# sourceMappingURL=create.css.map */

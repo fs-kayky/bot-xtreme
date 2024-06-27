@@ -1,0 +1,138 @@
+@import '../../../common/variables.scss';
+@import '../../../common/mixins.scss';
+
+body {
+    background-color: $orange-color;
+}
+
+.newAlarm {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    &__button {
+
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 30px;
+        width: 120px;
+        cursor: pointer;
+
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        transition: 0.3s;
+
+        background-color: #fff;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #878788;
+        }
+    }
+
+    &__body {
+        border-radius: 25px;
+        height: 680px;
+        width: 1100px;
+        background-color: $black-color;
+    }
+
+    &__header {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        color: white;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 60px;
+        flex-direction: column;
+        gap: 30px;
+
+        label {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 22px;
+            color: white;
+            margin-right: 20px;
+        }
+
+        select {
+            width: 300px;
+            height: 30px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 20px
+        }
+
+        button {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+            height: 50px;
+            width: 200px;
+            border-radius: 25px;
+
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #c0bfbf;
+            }
+
+            &:active {
+                background-color: $orange-color;
+            }
+
+        }
+
+        input {
+            height: 40px;
+        }
+    }
+
+}
+
+.content__wrapper {
+    height: 60px;
+    width: 700px;
+    display: flex;
+    text-align: left;
+}
+
+.buttons {
+    justify-content: center;
+    gap: 50px;
+}
+
+.form {
+    margin-left: 170px;
+    flex-direction: column;
+    height: 230px;
+    gap: 10px;
+
+    input {
+      width: 500px;
+      height: 50px;  
+      border-radius: 25px;
+      padding-left: 10px;
+      font-size: 20px;
+    }
+
+}
